@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 
 import HTML from "../assets/html.png";
