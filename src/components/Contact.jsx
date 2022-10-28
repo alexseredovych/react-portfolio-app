@@ -43,7 +43,7 @@ const Contact = () => {
           placeholder="Message"
         ></textarea>
         <button className="text-white border-2 hover:bg-yellow-600 hover:border-yellow-600 px-4 py-3 my-8 mx-auto flex items-center">
-          Send the Message
+          Send me a message!
         </button>
       </form>
     </div>
