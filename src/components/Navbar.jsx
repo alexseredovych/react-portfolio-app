@@ -28,22 +28,22 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={500} offset={-400}>
             About
           </Link>
         </li>
         <li>
-          <Link to="experience" smooth={true} duration={500}>
+          <Link to="experience" smooth={true} duration={500} offset={-200}>
             Experience
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500} offset={200}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={100} offset={200}>
             Projects
           </Link>
         </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} offset={-100}>
             About
           </Link>
         </li>
@@ -85,25 +85,26 @@ const Navbar = () => {
             to="experience"
             smooth={true}
             duration={500}
+            offset={-150}
           >
             Experience
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500} offset={-30}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500} offset={100}>
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} offset={40}>
             Contact
           </Link>
         </li>

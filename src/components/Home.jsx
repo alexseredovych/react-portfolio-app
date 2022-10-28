@@ -23,7 +23,7 @@ const Home = () => {
           </p>
         </div>
         <div className="flex justify-center">
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={500} offset={-400}>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600">
               Learn More
               <span className="group-hover:rotate-90 duration-300">
