@@ -13,7 +13,7 @@ const Skills = () => {
     <div name="skills" className="w-full h-screen bg-[#0a2f1c] text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
+        <div className="sm mt-[200px]">
           <div className="flex justify-center">
             <p className="text-4xl inline font-bold border-b-4 border-yellow-600 text-gray-300">
               Skills
