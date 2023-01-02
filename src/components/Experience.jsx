@@ -105,7 +105,7 @@ const Experience = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - now"
+            date="2020 - present"
             dateClassName="text-8xl font-bold inline text-white"
             iconStyle={{ background: "#c28c19", color: "#fff" }}
             icon={<IoMdBriefcase />}
@@ -117,13 +117,11 @@ const Experience = () => {
               Larixoft Solutions LLC. (Lviv, Ukraine - remote)
             </h4>
             <p>
-              Developed several corporate websites using HTML, CSS, JavaScript,
-              jQuery, Bootstrap, Tailwind and/or Sass, Created user-centered,
+              Developed web apps using React.js, Redux Toolkit, JavaScript, 
+              jQuery, HTML, CSS, Bootstrap, Tailwind and Sass, Created user-centered,
               modern, and interactive experiences, Went through multiple
               iterations of the websites, making adjustments as the clients
-              requested through weekly meetings, Customized React templates to
-              meet the needs of the client and their users, Used technologies
-              such as HTML5, CSS3 and React.js to create modular front-end
+              requested through weekly meetings
               applications
             </p>
           </VerticalTimelineElement>

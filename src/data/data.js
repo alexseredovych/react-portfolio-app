@@ -16,12 +16,5 @@ export const data = [
     image: Crypto,
     github: "https://github.com/alexseredovych/react-crypto-app",
     live: "https://crypto-stats-396c8.web.app/",
-  }, 
-  {
-    id: 3,
-    name: "Currency Coverter",
-    image: Converter,
-    github: "https://github.com/alexseredovych/currency-converter",
-    live: "https://currency-converter-cbbb6.web.app/",
   }
 ];

@@ -16,10 +16,9 @@ const Home = () => {
           </p>
         </div>
         <div className="flex justify-center">
-          <p className="py-4 max-w-[600px] text-gray-300">
-            I’m a Front-End Developer from Chicago, IL focused on producing
-            creative, stable and responsive websites that are highly functional
-            and easy to understand.
+          <p className="py-4 max-w-[600px] text-gray-300 text-center">
+            I’m a Frontend Developer from Chicago, IL focused on creating
+            unique web apps with broad functionality, responsvie UI and exceptional UX.
           </p>
         </div>
         <div className="flex justify-center">
